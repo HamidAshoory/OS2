@@ -1,0 +1,28 @@
+input:
+
+task1 5 2 1 1 1 2 4
+task2 3 1 0 0 1 1 2
+task3 3 1 1 0 0 2 3
+task4 6 2 0 1 0 3 5
+task5 7 4 3 0 4 2 3
+task6 8 1 0 1 2 3 2
+task7 5 4 1 1 1 3 4
+task8 3 2 0 0 2 3 3
+task9 5 2 1 2 0 1 1
+task10 3 1 2 0 0 1 4 
+
++++++++++++++++++++++++++++++++++++++
+
+output:
+
+ready_queue1 = [0,1]
+ready1 = [task2, task10]
+
+ready_queue2 = [0,1]
+ready = [task3, task1]
+
+ready_queue2 = [0]
+ready = [task8]
+
+waiting_index = [0, 1, 2, 3, 4]
+waiting = [task9, task7, task4, task5, task6]
